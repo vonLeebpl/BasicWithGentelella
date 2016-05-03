@@ -10,7 +10,17 @@ Link to Gentelella github: [Github](https://github.com/puikinsh/gentelella)
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
 
-You may also install Gentelella using Bower to your Symfony project.
+**Installation**
+1. Create your symfony project in /your_symf_project/dir using any method you may use.
+2. Checkout this git repository to your temp_git/dir
+3. cd temp_git/dir
+4. run in cmd window or terminal: git checkout-index -f --prefix=/your_symf_project/dir/ -a
+5. Delete temp_git/dir.
+
+This will overwrite your initial files in your symfony project and your are ready to go.
+You may also install full copy of Gentelella using Bower to your Symfony project.
+
+**Remarks**
 
 This Symfony project splits Gentelella template into series of Twig files that you can modify according to your specifing needs.
 I have modified a bit css, images and font directory structure, to simplify it.
