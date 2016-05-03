@@ -11,11 +11,17 @@ Link to Gentelella github: [Github](https://github.com/puikinsh/gentelella)
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
 
 **Installation**
+
 1. Create your symfony project in /your_symf_project/dir using any method you may use.
+
 2. Checkout this git repository to your temp_git/dir
+
 3. cd temp_git/dir
+
 4. run in cmd window or terminal: git checkout-index -f --prefix=/your_symf_project/dir/ -a
+
 5. Delete temp_git/dir.
+
 
 This will overwrite your initial files in your symfony project and your are ready to go.
 You may also install full copy of Gentelella using Bower to your Symfony project.
