@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block left_profile_quick_info %}{% include 'default/_left_profile_quick_info.html.twig' %}{% endblock %}
+{% block left_column_footer_buttons %}{% include 'default/_left_column_footer_buttons.html.twig' %}{% endblock %}
+{% block sidebar_menu %}{% include 'default/_sidebar_menu.html.twig' %}{% endblock %}
+{% block top_navigation %}{% include 'default/_top_navigation.html.twig' %}{% endblock %}
+{% block content %}{% include 'default/_content.html.twig' %}{% endblock %}
+{% block footer %}{% include 'default/_footer.html.twig' %}{% endblock %}
+{% block javascripts %}{% include 'default/_javascripts.html.twig' %}{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/jvectormap.min.css') }}" />
+    <link href="{{ asset('css/icheck.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/floatexamples.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
