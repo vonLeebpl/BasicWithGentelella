@@ -1,0 +1,25 @@
+{
+  "name": "symfony_basic_with_gentelella",
+  "version": "1.0.0",
+  "description": "Symfony 3.0.* clean framework with Gentelella bootstrap template",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vonLeeb_pl",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {
+    "require-dir": "^0.3.0"
+  }
+}

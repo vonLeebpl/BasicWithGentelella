@@ -1,0 +1,17 @@
+{
+  "name": "symfony_basic_with_gentelella",
+  "description": "Symfony 3.0.* clean framework with Gentelella bootstrap template",
+  "main": "index.js",
+  "authors": [
+    "vonLeeb_pl"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
